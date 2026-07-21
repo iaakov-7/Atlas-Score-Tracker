@@ -1,0 +1,24 @@
+{
+  "name": "atlas-score-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iaakov-7/Atlas-Score-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/iaakov-7/Atlas-Score-Tracker/issues"
+  },
+  "homepage": "https://github.com/iaakov-7/Atlas-Score-Tracker#readme",
+  "dependencies": {
+    "mongodb": "^7.5.0"
+  }
+}

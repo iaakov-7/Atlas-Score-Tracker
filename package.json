@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/iaakov-7/Atlas-Score-Tracker#readme",
   "dependencies": {
-    "mongodb": "^7.5.0"
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.5.0",
+    "zod": "^4.4.3"
   }
 }

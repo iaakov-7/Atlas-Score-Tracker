@@ -1,6 +1,6 @@
 import { saveScore } from "../repositories/score_repository.js";
 
-export async function saveScoreCont(req, res) {
+export async function handleSaveScore(req, res) {
   const scoreData = req.body;
   const newId = await saveScore(scoreData);
   res

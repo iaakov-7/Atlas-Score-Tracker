@@ -2,7 +2,7 @@ import z from "zod";
 
 export const scoreSchema = z.object({
   playerName: z.string().min(2),
-  game: z.enum(["tetris", "snake", "space-invader"]),
+  game: z.enum(["tetris", "snake", "space-invaders"]),
   points: z.number().int().positive(),
   level: z.number().int().positive().optional(),
   duration: z.number().int().positive().optional(),

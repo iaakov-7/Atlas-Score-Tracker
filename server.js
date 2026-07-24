@@ -4,6 +4,7 @@ import { router as scoresRouter } from "./routers/scores_routes.js";
 import { router as leaderboardRouter } from "./routers/leaderboard_routes.js";
 import { router as playerRouter } from "./routers/player_routes.js";
 import { router as statsRouter } from "./routers/stats_routes.js";
+import { router as gameRouter } from "./routers/geme_routes.js";
 import { client } from "./db.js";
 import { errorHandler } from "./middlewares/error_handler.js";
 import { success } from "zod";
@@ -15,6 +16,7 @@ server.use("/scores", scoresRouter);
 server.use("/leaderboard", leaderboardRouter);
 server.use("/player", playerRouter);
 server.use("/stats", statsRouter);
+server.use("/games", gameRouter);
 
 await client.connect();
 console.log("Connected to mongoDB");

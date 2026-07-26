@@ -13,7 +13,7 @@ Written in Java Script.
 ├── controllers
 │   ├── game_controller.js
 │   ├── leaderboard_controller.js
-│   ├── palyer_controller.js
+│   ├── player_controller.js
 │   ├── score_controller.js
 │   └── stats_controller.js
 ├── db.js
@@ -31,7 +31,7 @@ Written in Java Script.
 │   ├── score_repository.js
 │   └── stats_repository.js
 ├── routers
-│   ├── geme_routes.js
+│   ├── game_routes.js
 │   ├── leaderboard_routes.js
 │   ├── player_routes.js
 │   ├── scores_routes.js
@@ -47,3 +47,17 @@ Written in Java Script.
 - GET `/player/:name` // Player profile
 - GET `/stats` // General statistics
 - GET `/games` // List of games
+
+## Operating and running instructions
+
+### Env file:
+
+Prepare a file according to the .env_example
+
+### What to install
+
+- npm install
+
+### How to run
+
+- node app.js
